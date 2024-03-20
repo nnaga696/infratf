@@ -14,7 +14,7 @@ ami = "ami-0a0409af1cb831414"
 key_name = "elbtg"
 tags = {
 
-Name = "tf_ec2_gh"
+Name = "ec2_4m_githubactions"
 }
 
 }
