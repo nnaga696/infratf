@@ -1,24 +1,7 @@
 provider "aws" {
 
-
-
     region = "us-west-1"
 }
-
-
-terraform {
-
-backend "s3" {
-
-bucket = "myterraformstatefiles3sbucket"
-key = "terraform.tfstate"
-region = "us-west-1"
-
-}
-
-
-}
-
 
 resource "aws_instance" "tf_ec2" {
 
